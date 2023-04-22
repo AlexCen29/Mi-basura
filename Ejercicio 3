@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 1</title>
+    </head>
+    <body>
+        <div>
+            <h1>Aprendiendo a utilizar imágenes</h1>
+            <img src="Imagenes/BioShock-cover.jpg" alt="BioShock-cover" width="500" height="300">
+        </div>
+        <br>
+        <div>
+            <h1>Aprendiendo a utilizar los vídeos</h1>
+            <video controls autoplay muted loop>
+                <source src="Imagenes/Video-Mentiras.mp4">
+            </video>
+        </div>
+        <br>
+        <div>
+            <h1>Aprendiendo a utilizar los audios</h1>
+            <audio controls autoplay loop>
+                <source src="Imagenes/polisw-cow.mp3">
+            </audio>
+        </div>
+    </body>
+</html>
