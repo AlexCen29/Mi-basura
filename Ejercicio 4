@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ganando precisión con los selectores en CSS</title>
+        <link rel="stylesheet" href="Estilosejercicio4.css">
+    </head>
+    <body>
+        <div>
+            <h1 id="titulo" class="encabezado">Lista de compras</h1>
+        </div>
+        <br>
+        <div>
+            <ul>
+                <li id="elemento-1">Papa</li>
+                <li id="elemento-2">Tomate</li>
+                <li id="elemento-3">Tortilla</li>
+                <li id="elemento-4">Chile patuano</li>
+                <li id="elemento-5">Sobo</li>
+            </ul>
+        </div>
+        <div>
+            <ol>
+                <li id="elemento-1">Condorito</li>
+                <li id="elemento-2">OXXO</li>
+                <li id="elemento-3">AKI</li>
+                <li id="elemento-4">Donosusa</li>
+                <li id="elemento-5">Aurrera</li>
+            </ol>
+        </div>
+    </body>
+</html>
+
+/* Archivo CSS */
+
+#elemento-1
+{
+    color: red;
+}
+ul #elemento-1
+{
+    font-size: 2rem;
+}
