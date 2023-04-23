@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Disposicion de elementos en CSS</title>
+        <link rel="stylesheet" href="css/ejercicio5.css">
+    </head>
+    <body>
+        <div class="galeria">
+            <img class="imagen" src="img/BioShock-cover.jpg" alt="BioShock-cover">
+            <img class="imagen" src="img/gatofeliz.jpg" alt="gatofeliz">
+            <img class="imagen" src="img/gatouniversitario.jpg" alt="gatouniversitario">
+            <img class="imagen" src="img/flor.webp" alt="flor">
+            <img class="imagen" src="img/gatoojon.jpg" alt="gatoojon">
+            <img class="imagen" src="img/perroIA.jpg" alt="pe">
+        </div>
+    </body>
+</html>
+
+/*Codigo CSS*/
+
+.galeria
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagen
+{
+    width: 300px;
+}
