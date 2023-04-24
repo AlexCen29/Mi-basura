@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selectores, pseudo-clases y pseudo-elementos en CSS</title>
+        <style>
+            button:hover
+            {
+                background-color:green;
+                color: white;
+            }
+            button:hover::before
+            {
+                content: "HECHO";
+            }
+            button:hover span
+            {
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <button><span>Pasa por encima</span></button> 
+        </div>
+    </body>
+</html>
