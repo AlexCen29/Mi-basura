@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ejercicio9.css">
+    <title>Animaciones y transiciones en CSS</title>
+</head>
+<body>
+    
+        <button class="btn-modern">Boton</button>
+    
+</body>
+</html>
+
+/*css*/
+.btn-modern:hover
+{
+    background-color: aqua;
+    transform: translateY(-5px);
+    color: rgb(78, 78, 141);
+    transition: all 0.4s;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
