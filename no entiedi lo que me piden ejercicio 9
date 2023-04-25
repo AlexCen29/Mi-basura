@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diseño Responsive con CSS</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="sidebar">
+			<a href="#">Elemento 1</a>
+			<a href="#">Elemento 2</a>
+			<a href="#">Elemento 3</a>
+		</div>
+		<div class="main-section">
+			<p>Contenido de la sección principal</p>
+		</div>
+	</div>
+</body>
+</html>
+
+/*para la proxima usen mas detalles para explicar el ejercicio, las letras son gratis*/
+CSS
+
+.container {
+    display: flex;
+    }
+    
+    .sidebar {
+    flex-basis: 25%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .sidebar a {
+    padding: 10px;
+    }
+    
+    .main-section {
+    flex-grow: 1;
+    background-color: lightgray;
+    padding: 20px;
+    }
+    
+    @media screen and (max-width: 640px) {
+    .container {
+    flex-direction: column;
+    }
+    .sidebar {
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    .sidebar a {
+    padding: 0;
+    margin: 0 10px;
+    }
+    }
