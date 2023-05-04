@@ -1,0 +1,16 @@
+nombre="Alex";
+edad=29;
+desarrollador=false;
+const cumpleaños = new Date(1994,3,17)
+console.log(cumpleaños)
+const libro=
+{
+    titulo:"el señor de los anillos",
+    autor:"Tolkien",
+    fecha:new Date(1954,5,8),
+    url:"https://www.bing.com/search?q=el+señor+de+los+anillos+libro&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=el+señor+de+los+anillos+libro&sc=10-29&sk=&cvid=04BA498CAA8A44488BF56CBFCADBD46F&ghsh=0&ghacc=0&ghpl="
+}
+console.log(libro.fecha)
+
+mi_info[nombre, edad, desarrollador, cumpleaños, libro]
+console.log(mi_info[4].titulo)
